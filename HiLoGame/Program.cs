@@ -15,7 +15,7 @@ namespace HiLoGame
                 Console.WriteLine($"or any other key to quit with {HiLoGame.GetPot()}.");
                 char key = Console.ReadKey(true).KeyChar;
                 if (key == 'h') HiLoGame.Guess(true);
-                else if (key == 'l') HiLoGame(false);
+                else if (key == 'l') HiLoGame.Guess(false);
                 else if (key == '?') HiLoGame.Hint();
                 else return;
             }
